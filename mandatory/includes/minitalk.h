@@ -6,7 +6,7 @@
 /*   By: rleslie- <rleslie-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/14 19:52:07 by fsuomins          #+#    #+#             */
-/*   Updated: 2023/02/15 17:29:12 by rleslie-         ###   ########.fr       */
+/*   Updated: 2023/02/15 17:36:30 by rleslie-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,6 @@
 # include <signal.h>
 # include <sys/types.h>
 # include "../../libft/libft.h"
-
 
 void	print_char(int sig, siginfo_t *siginfo, void *context);
 
